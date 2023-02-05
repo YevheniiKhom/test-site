@@ -1,0 +1,62 @@
+html {
+	font-size: 21px;
+	font-family: "Roboto Mono", monospace;
+	background-color: rgb(235, 199, 53);
+}
+body {
+	background-color: rgb(251, 229, 141);
+	width: 1200px;
+	margin: auto;
+	padding: 0 20px 20px 20px;
+	border: 2px solid rgb(247, 211, 66);
+}
+.headline {
+	margin: 0;
+	padding: 20px 0;
+	text-shadow: 2px 2px 1px lightslategrey;
+	text-align: center;
+	font-size: 34px;
+	color: rgb(235, 199, 53);
+}
+.dogPhoto {
+	display: block;
+	margin: 0;
+	width: 680px;
+}
+.greeting {
+	font-size: 20px;
+}
+.listHeading {
+	color: rgb(235, 199, 53);
+	font-size: 28px;
+	text-align: center;
+	text-shadow: 2px 2px 1px lightslategrey;
+}
+.offers {
+	font-size: 18px;
+}
+.elementsList {
+	padding: 8px;
+}
+.buttChangeUs {
+	background-color: rgb(235, 199, 53);
+	color: rgb(0, 0, 0);
+	text-shadow: 1px 1px 1px lightslategrey;
+	padding: 25px;
+	border-radius: 10px;
+}
+/*псевдоклас для затемнення кнопки коли наводиш стрілку*/
+.buttChangeUs:hover {
+	background-color: rgb(215, 177, 5);
+	transition: 0.3s;
+}
+/*псевдоклас для  кнопки коли наводиш табом*/
+.buttChangeUs:focus {
+	outline-color: transparent;
+	outline-style: solid;
+	box-shadow: 0 0 0 4px lightsalmon;
+	transition: 0.3s;
+}
+.buttChangeUs:active {
+	background-color: rgb(200, 137, 19);
+}
